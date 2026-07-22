@@ -1,0 +1,31 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+status: Failed
+feedback:
+  message: "'Welc[33 chars]Your final bill is: $25.\\n' != 'Welc[33 chars]Your total\
+    \ is 25 so far\\nYour total is 25 so f[23 chars]25\\n'"
+  time: "Thu, 25 Jun 2026 20:14:51 UTC"
+  expected: |
+    Welcome to Python Pizza Deliveries!
+    Your final bill is: $25.
+  actual: |
+    Welcome to Python Pizza Deliveries!
+    Your total is 25 so far
+    Your total is 25 so far
+    Your final bill is 25
+record: -1
