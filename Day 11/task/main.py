@@ -65,14 +65,13 @@ def blackjack():
         # player 1 initial 2 random cards
         p_cards = random.choices(cards, k=2)
 
-        #debug double aces where the values would be 11 and ensure one is 11
+        #debug double aces where the values would be 11 and ensure one is set to 1
             #p_cards[0] = 11
             #p_cards[1] = 11
 
         #if both cards dealt are 11, 11 make one of them 1 as we dont have split function
         two_ace_deal(p_cards)
         p_current_score = add_cards(p_cards[0],p_cards[1])
-
         print(f"Your cards: {p_cards}, current score: {p_current_score}")
 
         # computer initial random cards
@@ -121,7 +120,7 @@ def blackjack():
 
                 c_hit_me_card = random.choice(cards) # 11 to test belie use_ace_value
 
-                # if computer card is ace and score would be > 21 (p_hit_me_card = 11) then set card to 1
+                # if computer card is ace and score would be > 21 (c_hit_me_card = 11) then set card to 1
                 c_current_score = use_ace_value(c_current_score, c_cards, c_hit_me_card)
 
             # here we flip both users cards up and show
