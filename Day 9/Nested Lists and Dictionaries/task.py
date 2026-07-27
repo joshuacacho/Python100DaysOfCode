@@ -12,6 +12,7 @@ travel_log = {
         # the value(s) in this care a list
     "France" : ["Paris","Lille","Dijon"],
     'Germany' : ["Berlin", "Munich"],
+
 }
 
 # Challenge

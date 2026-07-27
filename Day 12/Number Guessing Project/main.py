@@ -26,15 +26,15 @@ guess_to_high_message = "Too High, Guess Again"
 guess_to_low_message = "Too Low, Guess Again"
 guess_correct_message = f"You guessed correctly, the number was {number_to_guess}"
 
-def correct_number_guess_or_not(user_guessed_number, number_to_chose, guess_count):
+def correct_number_guess_or_not(user_guessed_number, number_to_choose, guess_count):
     """This function determines if the user guessed correct number taking into guess amount"""
-    if user_guessed_number > number_to_chose:
+    if user_guessed_number > number_to_choose:
         print(guess_to_high_message)
         guess_count -= 1
-    elif user_guessed_number < number_to_chose:
+    elif user_guessed_number < number_to_choose:
         print(guess_to_low_message)
         guess_count -= 1
-    elif user_guessed_number == number_to_chose:
+    elif user_guessed_number == number_to_choose:
         print(guess_correct_message)
         sys.exit() # game over so end game
     else:
