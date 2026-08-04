@@ -57,6 +57,7 @@ for key in test_dictionary:
     # The keys in student_scores are the names of the students and the values are their exam scores.
 
 # **DO NOT** modify lines 1-7 to change the existing student_scores dictionary.
+    # Traditional key:pair values
 student_scores = {
     'Harry': 88,
     'Ron': 78,

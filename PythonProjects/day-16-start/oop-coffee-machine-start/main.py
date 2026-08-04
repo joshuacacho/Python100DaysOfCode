@@ -74,7 +74,6 @@ def coffee_machine():
         # OOP using coffee maker and menu class
             # 1 pass drink choice (str) to menu.find_drink(str) and returns an object
             # 2 pass returned object from menu.find_drink(str) into coffee_maker.is_resouce_sufficient(object)
-            print(menu.get_items())
             enough_resources = coffee_maker.is_resource_sufficient(menu.find_drink(drink_choice))
 
             print(f"Enough resources is {enough_resources}")

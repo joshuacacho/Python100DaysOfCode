@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/PythonProjects/day-16-start/.venv/lib/python3.14/site-packages" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/PythonProjects/day-16-start/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProjects/day-17-start/.venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
