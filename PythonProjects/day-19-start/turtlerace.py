@@ -39,7 +39,7 @@ for index in range(len(colors)):
     #create new turtle object
     new_turtle = t.Turtle()
     # setting shape, colors, speed, NO PEN
-    new_turtle.penup()
+    new_turtle.penup()left
     new_turtle.shape("turtle")
     new_turtle.color(colors[index])
     new_turtle.speed(3)
