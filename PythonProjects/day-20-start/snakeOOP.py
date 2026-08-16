@@ -10,10 +10,11 @@ class Snake:
         self.turtle.color("white")
         self.turtle.penup()
         self.turtle.shapesize(turtle_width, turtle_length)
+        self.movement = 20
 
     def snake_default_movement(self):
         """This function moves the snake at game start at intervals of 20 on x-axis"""
-        self.turtle.forward(20)
+        self.turtle.forward(self.movement)
 
     def go_up(self):
         """This function moves the snake up"""

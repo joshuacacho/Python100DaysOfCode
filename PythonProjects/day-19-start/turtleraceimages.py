@@ -12,7 +12,7 @@ screen = Screen()
 # set initial screen size
     # DONT include the other two fields
     # start_x and start_y or else screen won't open up in center of your screen
-screen.setup(width=500, height=400)
+screen.setup(width=900, height=800)
 screen.title("Welcome to the Turtle Race!")
 
 # ask user who will win the race
@@ -28,7 +28,7 @@ speeds = [1, 3, 5, 7, 9, 0]
 # 3. Save turtle racers for later
 turtle_racers = []
 # 4. set x,y  positions
-start_x = -225
+start_x = -425
 start_y = -125
 # 5. movement forward amounts
 forward_movement = [5, 10, 15, 20, 25, 30]
@@ -99,7 +99,7 @@ if count == len(colors):
                     # pos()[0] or pos()[1] gives x or y coordinate
                     # xcor() gives x coordinate
                     # ycor() gives y coordinate
-            if turtle.xcor() > 230:
+            if turtle.xcor() > 430:
                 winning_turtle = turtle.racer_name  # grab name of winning turtle
                 print(f"As they come down the home stretch the winning turtle is {winning_turtle}")
                 racing = False  # stop racing as we have a winner
