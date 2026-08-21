@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/PythonProjects/day-18-start/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/PythonProjects/day-19-start/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/PythonProjects/day-20-start/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProjects/day-22-start/.venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
